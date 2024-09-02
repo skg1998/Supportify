@@ -13,6 +13,7 @@ import Donate from './pages/Donate/donate';
 import Volunteer from './pages/Volunteer/volunteer';
 
 import './App.css';
+import Event from './pages/event/event';
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
         <Route path="/support" element={<SupportUs />} />
         <Route path="/donate" element={<Donate />} />
         <Route path="/volunteer" element={<Volunteer />} />
+        <Route path="/event" element={<Event />} />
       </Routes>
     </Router>
   );

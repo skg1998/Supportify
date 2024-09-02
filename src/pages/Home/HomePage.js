@@ -16,7 +16,7 @@ const HomePage = () => {
         <div className="home-container">
             <Header />
             <Slider />
-            <Reson />
+            <Reson text={'Reason of Helping'} />
             <Activity />
             <Causes />
             <Counter />

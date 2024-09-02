@@ -1,14 +1,14 @@
 import React from 'react';
 import './reson.css'
 
-const Reason = () => {
+const Reason = (props) => {
     return (
         <div class="reson_area section_padding">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="section_title text-center mb-55">
-                            <h3><span>Reason of Helping</span></h3>
+                            <h3><span>{props.text}</span></h3>
                         </div>
                     </div>
                 </div>
