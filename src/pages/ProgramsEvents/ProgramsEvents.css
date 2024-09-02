@@ -1,0 +1,27 @@
+.programs-events-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.programs-events-container h1 {
+    color: #4A90E2;
+}
+
+.programs-events-container h2 {
+    color: #E94E77;
+    margin-top: 30px;
+}
+
+.programs-events-container p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.programs-events-container ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.programs-events-container ul li {
+    margin-bottom: 10px;
+}

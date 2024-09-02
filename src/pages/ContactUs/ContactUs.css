@@ -1,0 +1,36 @@
+.contact-us-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.contact-us-container h1 {
+    color: #4A90E2;
+}
+
+.contact-us-container h2 {
+    color: #E94E77;
+    margin-top: 30px;
+}
+
+.contact-us-container p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.contact-us-container ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.contact-us-container ul li {
+    margin-bottom: 10px;
+}
+
+.contact-us-container ul li a {
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+.contact-us-container ul li a:hover {
+    text-decoration: underline;
+}

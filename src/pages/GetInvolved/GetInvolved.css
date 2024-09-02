@@ -1,0 +1,18 @@
+.get-involved-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.get-involved-container h1 {
+    color: #4A90E2;
+}
+
+.get-involved-container h2 {
+    color: #E94E77;
+    margin-top: 30px;
+}
+
+.get-involved-container p {
+    margin: 20px 0;
+    line-height: 1.6;
+}

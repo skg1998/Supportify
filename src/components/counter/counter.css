@@ -1,0 +1,52 @@
+.counter_area .counter_bg {
+    background-image: url(../../assets/img/banner/counter_bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    overflow: hidden;
+    padding: 64px 0;
+    background-size: cover;
+  }
+  
+  @media (min-width: 992px) and (max-width: 1200px) {
+    /* line 2, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_counter.scss */
+    .counter_area .counter_bg {
+      padding: 64px 25px;
+    }
+  }
+  
+  /* line 15, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_counter.scss */
+  .counter_area .overlay:before {
+    background: #3CC78F;
+    opacity: .6;
+  }
+  
+  /* line 20, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_counter.scss */
+  .counter_area .single_counter .icon {
+    margin-right: 10px;
+  }
+  
+  /* line 22, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_counter.scss */
+  .counter_area .single_counter .icon i {
+    font-size: 70px;
+    color: #fff;
+  }
+  
+  /* line 28, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_counter.scss */
+  .counter_area .single_counter .events h3 {
+    font-size: 40px;
+    margin-bottom: 0;
+    color: #fff;
+  }
+  
+  /* line 33, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_counter.scss */
+  .counter_area .single_counter .events p {
+    margin-bottom: 0;
+    font-size: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #fff;
+  }
+  

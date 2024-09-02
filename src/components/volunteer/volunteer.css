@@ -1,0 +1,99 @@
+.our_volunteer_area .single_volenteer {
+    position: relative;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 2, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+    .our_volunteer_area .single_volenteer {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 2, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+    .our_volunteer_area .single_volenteer {
+      margin-bottom: 30px;
+    }
+  }
+  
+  /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+  .our_volunteer_area .single_volenteer .volenteer_thumb {
+    padding-right: 70px;
+    padding-bottom: 90px;
+    position: relative;
+    z-index: 12;
+    overflow: hidden;
+  }
+  
+  /* line 17, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+  .our_volunteer_area .single_volenteer .volenteer_thumb img {
+    width: 100%;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+  }
+  
+  /* line 22, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+  .our_volunteer_area .single_volenteer .voolenteer_info {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    left: 40px;
+    top: 90px;
+  }
+  
+  /* line 31, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+  .our_volunteer_area .single_volenteer .voolenteer_info .info_inner {
+    padding: 20px 40px;
+    position: relative;
+    z-index: 100;
+  }
+  
+  /* line 35, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+  .our_volunteer_area .single_volenteer .voolenteer_info .info_inner h4 {
+    font-size: 20px;
+    margin-bottom: 2px;
+  }
+  
+  /* line 39, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+  .our_volunteer_area .single_volenteer .voolenteer_info .info_inner p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #222222;
+    margin-bottom: 0;
+  }
+  
+  /* line 46, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+  .our_volunteer_area .single_volenteer .voolenteer_info .social_links {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 30px;
+    z-index: 99;
+  }
+  
+  /* line 53, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+  .our_volunteer_area .single_volenteer .voolenteer_info .social_links ul li {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /* line 56, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+  .our_volunteer_area .single_volenteer .voolenteer_info .social_links ul li:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* line 59, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_voolenteer.scss */
+  .our_volunteer_area .single_volenteer .voolenteer_info .social_links ul li a {
+    font-size: 16px;
+    color: #222222;
+  }
+  

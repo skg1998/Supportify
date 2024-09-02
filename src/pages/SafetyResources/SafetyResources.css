@@ -1,0 +1,36 @@
+.safety-resources-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.safety-resources-container h1 {
+    color: #4A90E2;
+}
+
+.safety-resources-container h2 {
+    color: #E94E77;
+    margin-top: 30px;
+}
+
+.safety-resources-container p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+.safety-resources-container ul {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+.safety-resources-container ul li {
+    margin-bottom: 10px;
+}
+
+.safety-resources-container ul li a {
+    color: #4A90E2;
+    text-decoration: none;
+}
+
+.safety-resources-container ul li a:hover {
+    text-decoration: underline;
+}

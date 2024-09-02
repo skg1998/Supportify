@@ -1,0 +1,64 @@
+.news__area {
+    background: #F3FCF8;
+  }
+  
+  /* line 3, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_news.scss */
+  .news__area .single__blog {
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    background: #fff;
+    overflow: hidden;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 3, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_news.scss */
+    .news__area .single__blog {
+      display: block !important;
+    }
+  }
+  
+  /* line 12, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_news.scss */
+  .news__area .single__blog .thum img {
+    width: 100%;
+    width: 264px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 12, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_news.scss */
+    .news__area .single__blog .thum img {
+      width: 100%;
+    }
+  }
+  
+  /* line 20, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_news.scss */
+  .news__area .single__blog .newsinfo {
+    padding: 20px 40px;
+  }
+  
+  /* line 22, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_news.scss */
+  .news__area .single__blog .newsinfo span {
+    font-size: 14px;
+    font-weight: 600;
+    color: #222222;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  /* line 28, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_news.scss */
+  .news__area .single__blog .newsinfo h3 {
+    font-size: 20px;
+    color: #222222;
+    margin-top: 17px;
+  }
+  
+  /* line 33, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_news.scss */
+  .news__area .single__blog .newsinfo p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #7A7B7C;
+    margin-bottom: 42px;
+    margin-top: 21px;
+  }

@@ -1,0 +1,88 @@
+.video_bg_1 {
+    background-image: url(../../assets/img/banner/man.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  
+  /* line 7, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
+  .latest_activites_area {
+    background: rgba(60, 199, 143, 0.06);
+    position: relative;
+  }
+  
+  /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
+  .latest_activites_area .video_activite {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 40%;
+    bottom: 0;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
+    .latest_activites_area .video_activite {
+      display: none !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    /* line 10, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
+    .latest_activites_area .video_activite {
+      display: none !important;
+    }
+  }
+  
+  /* line 22, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
+  .latest_activites_area .video_activite a {
+    font-size: 70px;
+    color: #fff;
+    position: relative;
+    z-index: 12;
+    width: 150px;
+    height: 150px;
+    background: #3CC78F;
+    text-align: center;
+    line-height: 150px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+  /* line 34, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
+  .latest_activites_area .video_activite::before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: #3CC78F;
+    opacity: .3;
+    content: '';
+  }
+  
+  /* line 45, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
+  .latest_activites_area .activites_info {
+    padding-right: 156px;
+    padding-top: 240px;
+    padding-bottom: 226px;
+  }
+  
+  @media (max-width: 767px) {
+    /* line 45, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
+    .latest_activites_area .activites_info {
+      padding: 50px 15px;
+    }
+  }
+  
+  /* line 58, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
+  .latest_activites_area .activites_info p.para_1 {
+    margin-bottom: 22px;
+    margin-top: 20px;
+  }
+  
+  /* line 62, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_latest_activites.scss */
+  .latest_activites_area .activites_info p.para_2 {
+    margin-bottom: 30px;
+  }

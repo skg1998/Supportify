@@ -1,0 +1,18 @@
+.support-us-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.support-us-container h1 {
+    color: #4A90E2;
+}
+
+.support-us-container h2 {
+    color: #E94E77;
+    margin-top: 30px;
+}
+
+.support-us-container p {
+    margin: 20px 0;
+    line-height: 1.6;
+}
