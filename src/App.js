@@ -9,8 +9,11 @@ import ProgramsEvents from './pages/ProgramsEvents/ProgramsEvents';
 import ContactUs from './pages/ContactUs/ContactUs';
 import SupportUs from './pages/SupportUs/SupportUs';
 import Blogs from './pages/Blog/blog';
+import Donate from './pages/Donate/donate';
+import Volunteer from './pages/Volunteer/volunteer';
 
 import './App.css';
+
 
 function App() {
   return (
@@ -25,6 +28,8 @@ function App() {
         <Route path="/programs" element={<ProgramsEvents />} />
         <Route path="/contact" element={<ContactUs />} />
         <Route path="/support" element={<SupportUs />} />
+        <Route path="/donate" element={<Donate />} />
+        <Route path="/volunteer" element={<Volunteer />} />
       </Routes>
     </Router>
   );

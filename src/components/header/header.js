@@ -1,5 +1,5 @@
 import React from 'react';
-import { Outlet, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import './header.css'
 
 const Header = () => {
@@ -41,30 +41,25 @@ const Header = () => {
                         <div className="row align-items-center">
                             <div className="col-xl-3 col-lg-3">
                                 <div className="logo">
-                                    <a href="index.html">
-                                        <img src="img/logo.png" alt="" />
-                                    </a>
+                                    <h2 style={{ color: 'white' }}>Supportify</h2>
                                 </div>
                             </div>
                             <div className="col-xl-9 col-lg-9">
                                 <div className="main-menu">
                                     <nav>
                                         <ul id="navigation">
-                                            <li><a href="index.html">home</a></li>
-                                            <li><a href="About.html">About</a></li>
+                                            <li><Link to="/">Home</Link></li>
+                                            <li><Link to="/about">About</Link></li>
                                             <li><Link to="/blogs">Blogs</Link></li>
-                                            <li><a href="#">pages <i className="ti-angle-down"></i></a>
-                                                <ul className="submenu">
-                                                    <li><a href="elements.html">elements</a></li>
-                                                    <li><a href="Cause.html">Cause</a></li>
-                                                </ul>
-                                            </li>
-                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><Link to="/cause">Cause</Link> </li>
+                                            <li><Link to="/event">Event</Link> </li>
+                                            <li><Link to="/volunteer">Volunteer</Link> </li>
+                                            <li><Link to="/contact">Contact</Link></li>
                                         </ul>
                                     </nav>
                                     <div className="Appointment">
                                         <div className="book_btn d-none d-lg-block">
-                                            <a data-scroll-nav='1' href="#">Make a Donate</a>
+                                            <Link data-scroll-nav='1' to="/donate">Make a Donate</Link>
                                         </div>
                                     </div>
                                 </div>

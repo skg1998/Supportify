@@ -16,7 +16,7 @@ const Volunteer = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single_volenteer">
                             <div className="volenteer_thumb">
-                                <img src="img/volenteer/1.png" alt="" />
+                                <img src={require('../../assets/img/volenteer/1.png')} alt="" />
                             </div>
                             <div className="voolenteer_info d-flex align-items-end">
                                 <div className="social_links">
@@ -36,8 +36,8 @@ const Volunteer = () => {
                                     </ul>
                                 </div>
                                 <div className="info_inner">
-                                    <h4>Sakil khan</h4>
-                                    <p>Donner</p>
+                                    <h4>Sahil Gupta</h4>
+                                    <p>DOMBBB</p>
                                 </div>
                             </div>
                         </div>
@@ -45,7 +45,7 @@ const Volunteer = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single_volenteer">
                             <div className="volenteer_thumb">
-                                <img src="img/volenteer/2.png" alt="" />
+                                <img src={require('../../assets/img/volenteer/2.png')} alt="" />
                             </div>
                             <div className="voolenteer_info d-flex align-items-end">
                                 <div className="social_links">
@@ -65,8 +65,8 @@ const Volunteer = () => {
                                     </ul>
                                 </div>
                                 <div className="info_inner">
-                                    <h4>Emran Ahmed</h4>
-                                    <p>Volunteer</p>
+                                    <h4>Sahil Gupta</h4>
+                                    <p>DOMBBB</p>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ const Volunteer = () => {
                     <div className="col-lg-4 col-md-6">
                         <div className="single_volenteer">
                             <div className="volenteer_thumb">
-                                <img src="img/volenteer/3.png" alt="" />
+                                <img src={require('../../assets/img/volenteer/3.png')} alt="" />
                             </div>
                             <div className="voolenteer_info d-flex align-items-end">
                                 <div className="social_links">
@@ -94,8 +94,8 @@ const Volunteer = () => {
                                     </ul>
                                 </div>
                                 <div className="info_inner">
-                                    <h4>Sabbir Ahmed</h4>
-                                    <p>Volunteer</p>
+                                    <h4>Sahil Gupta</h4>
+                                    <p>DOMBBB</p>
                                 </div>
                             </div>
                         </div>

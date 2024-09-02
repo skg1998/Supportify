@@ -8,7 +8,7 @@ const Blog = () => {
     return (
         <div>
             <Header />
-            <BreadCam />
+            <BreadCam text={'Blog'} />
             <BlogArea />
             <Footer />
         </div>

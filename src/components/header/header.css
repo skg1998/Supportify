@@ -116,7 +116,7 @@
 
 /* line 88, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .book_btn {
-  margin-left: 30px;
+  margin-left: 15px;
 }
 
 /* line 90, ../../Arafath/CL/january 2020/242. charity/HTML/scss/_header.scss */
@@ -396,6 +396,7 @@
   color: #222222;
   margin-right: 40px;
   font-family: "Open Sans", sans-serif;
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {

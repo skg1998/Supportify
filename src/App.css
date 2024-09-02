@@ -71,6 +71,10 @@ a,
   transition: 0.3s;
 }
 
+a{
+  text-decoration: none;
+}
+
 a:focus,
 .button:focus, button:focus {
   text-decoration: none;
