@@ -17,7 +17,7 @@ const News = () => {
                         <div class="news_active owl-carousel">
                             <div class="single__blog d-flex align-items-center">
                                 <div class="thum">
-                                    <img src="img/news/1.png" alt="" />
+                                    <img src={require("../../assets/img/news/1.png")} alt="" />
                                 </div>
                                 <div class="newsinfo">
                                     <span>July 18, 2019</span>
@@ -34,7 +34,7 @@ const News = () => {
                             </div>
                             <div class="single__blog d-flex align-items-center">
                                 <div class="thum">
-                                    <img src="img/news/2.png" alt="" />
+                                    <img src={require("../../assets/img/news/2.png")} alt="" />
                                 </div>
                                 <div class="newsinfo">
                                     <span>July 18, 2019</span>

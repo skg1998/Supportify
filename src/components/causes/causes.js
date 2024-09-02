@@ -17,7 +17,7 @@ const Causes = () => {
                         <div className="causes_active owl-carousel">
                             <div className="single_cause">
                                 <div className="thumb">
-                                    <img src="../../assets/img/causes/1.png" alt="" />
+                                    <img src={require("../../assets/img/causes/1.png")} alt="" />
                                 </div>
                                 <div className="causes_content">
                                     <div className="custom_progress_bar">
@@ -43,7 +43,7 @@ const Causes = () => {
                             </div>
                             <div className="single_cause">
                                 <div className="thumb">
-                                    <img src="../../assets/img/causes/2.png" alt="" />
+                                    <img src={require("../../assets/img/causes/2.png")} alt="" />
                                 </div>
                                 <div className="causes_content">
                                     <div className="custom_progress_bar">
@@ -68,7 +68,7 @@ const Causes = () => {
                             </div>
                             <div className="single_cause">
                                 <div className="thumb">
-                                    <img src="../../assets/img/causes/3.png" alt="" />
+                                    <img src={require("../../assets/img/causes/3.png")} alt="" />
                                 </div>
                                 <div className="causes_content">
                                     <div className="custom_progress_bar">
@@ -93,7 +93,7 @@ const Causes = () => {
                             </div>
                             <div className="single_cause">
                                 <div className="thumb">
-                                    <img src="../../assets/img/causes/1.png" alt="" />
+                                    <img src={require("../../assets/img/causes/1.png")} alt="" />
                                 </div>
                                 <div className="causes_content">
                                     <div className="custom_progress_bar">
