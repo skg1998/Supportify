@@ -17,7 +17,7 @@ const Reason = () => {
                         <div class="single_reson">
                             <div class="thum">
                                 <div class="thum_1">
-                                    <img src="img/help/1.png" alt="" />
+                                    <img src={require("../../assets/img/help/1.png")} alt="" />
                                 </div>
                             </div>
                             <div class="help_content">
@@ -33,7 +33,7 @@ const Reason = () => {
                         <div class="single_reson">
                             <div class="thum">
                                 <div class="thum_1">
-                                    <img src="img/help/2.png" alt="" />
+                                    <img src={require("../../assets/img/help/2.png")} alt="" />
                                 </div>
                             </div>
                             <div class="help_content">
@@ -49,7 +49,7 @@ const Reason = () => {
                         <div class="single_reson">
                             <div class="thum">
                                 <div class="thum_1">
-                                    <img src="img/help/3.png" alt="" />
+                                    <img src={require("../../assets/img/help/3.png")} alt="" />
                                 </div>
                             </div>
                             <div class="help_content">

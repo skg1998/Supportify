@@ -63,10 +63,8 @@ const Footer = () => {
                                     Contacts
                                 </h3>
                                 <div class="contacts">
-                                    <p>+2(305) 587-3407 <br />
-                                        info@loveuscharity.com <br />
-                                        Flat 20, Reynolds Neck, North
-                                        Helenaville, FV77 8WS
+                                    <p>+1 (111) 222-4444 <br />
+                                        info@supportify.com <br />
                                     </p>
                                 </div>
                             </div>

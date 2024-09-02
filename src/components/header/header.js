@@ -12,8 +12,8 @@ const Header = () => {
                             <div className="col-xl-6 col-md-12 col-lg-8">
                                 <div className="short_contact_list">
                                     <ul>
-                                        <li><a href="#"> <i className="fa fa-phone"></i> +1 (454) 556-5656</a></li>
-                                        <li><a href="#"> <i className="fa fa-envelope"></i>Yourmail@gmail.com</a></li>
+                                        <li><a href="#"> <i className="fa fa-phone"></i> +1 (111) 222-4444</a></li>
+                                        <li><a href="#"> <i className="fa fa-envelope"></i>test@gmail.com</a></li>
                                     </ul>
                                 </div>
                             </div>
